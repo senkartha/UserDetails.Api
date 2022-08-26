@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>UserDetails</AssemblyName>
+  </PropertyGroup>
+
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'UserDetails' " />
+  <ItemGroup>
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="Schemas\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Newtonsoft.Json.Schema" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.14" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Schemas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UserDetails.BL\UserDetailsBL.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="userDetails.json" />
+    <Content Remove="userDetails.json" />
+    <Content Remove="userDetails.json" />
+    <Content Remove="userDetails.json" />
+    <Content Remove="userDetails.json" />
+  </ItemGroup>
+</Project>
