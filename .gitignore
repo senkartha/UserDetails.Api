@@ -468,3 +468,5 @@ UserDetails.BL/obj/Debug/net6.0/UserDetailsBL.GeneratedMSBuildEditorConfig.edito
 UserDetails.BL/obj/Debug/net6.0/UserDetailsBL.GlobalUsings.g.cs
 UserDetails.BL/obj/Debug/net6.0/ref/UserDetails.BL.dll
 UserDetails.BL/obj/Debug/net6.0/refint/UserDetails.BL.dll
+.DS_Store
+UserDetails/.DS_Store
