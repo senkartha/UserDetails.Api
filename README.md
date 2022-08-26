@@ -1,2 +1,2 @@
 # UserDetails.Api
-User Details api using 
+User Details api using .netCore
